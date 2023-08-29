@@ -1,12 +1,13 @@
 # tic-tac-toe
 #just for fun
-line1=[1,2,3]
-line2=[4,5,6]
-line3=[7,8,9]
-player="X"
 
-game=bool(True)
-while game==True:
+	line1=[1,2,3]
+	line2=[4,5,6]
+	line3=[7,8,9]
+	player="X"
+	
+	game=bool(True)
+	while game==True:
 
 
     print(str(line1[0])+ " "+str(line1[1])+" "+str(line1[2]))
@@ -60,7 +61,7 @@ while game==True:
     if line1[2]==line2[1]==line3[0]:
         break
 
-if player=="X":
-        print("O wins")
-elif player=="O":
-        print("X wins")
+	if player=="X":
+	        print("O wins")
+	elif player=="O":
+	        print("X wins")
